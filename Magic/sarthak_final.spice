@@ -1,0 +1,13 @@
+* SPICE3 file created from sarthak_final.ext - technology: scmos
+
+.option scale=0.09u
+
+M1000 a_8_n407# Vbias3 Vout Gnd nfet w=96 l=4
++  ad=0 pd=0 as=0 ps=0
+M1001 Vout Vbias2 a_n4_n134# VDD pfet w=92 l=4
++  ad=0 pd=0 as=0 ps=0
+M1002 a_8_n407# Vin GND Gnd nfet w=109 l=4
++  ad=0 pd=0 as=0 ps=0
+M1003 a_n4_n134# Vbias1 VDD VDD pfet w=228 l=4
++  ad=0 pd=0 as=0 ps=0
+C0 VDD 0 8.40fF **FLOATING
